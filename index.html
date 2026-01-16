@@ -1,204 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Atendimento Psicanalítico Online | {{NOME_DA_PROFISSIONAL}}</title>
-  <meta name="description" content="Atendimento psicanalítico online, acolhedor e ético. Espaço seguro para falar de ansiedades, relacionamentos, autoconhecimento e saúde emocional." />
-  <meta name="theme-color" content="#0a2846" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <meta property="og:title" content="Atendimento Psicanalítico Online | {{NOME_DA_PROFISSIONAL}}" />
-  <meta property="og:description" content="Atendimento psicanalítico online, acolhedor e ético." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{URL_SITE}}" />
-  <meta property="og:image" content="{{URL_SITE}}/images/capa.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🜁</text></svg>">
-</head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-  <header class="topbar">
-    <div class="container nav">
-      <div class="brand">
-        <span class="logo">ψ</span>
-        <span class="brand-text">{{NOME_DA_PROFISSIONAL}}</span>
-      </div>
-      <nav aria-label="Seções do site">
-        <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
-        <ul id="menu" class="menu">
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#abordagem">Abordagem</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#depoimentos">Depoimentos</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a class="btn btn-primary" href="#contato">Agendar</a></li>
-        </ul>
-      </nav>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosi Perini | Psicanálise Online</title>
+
+  <meta name="description" content="Atendimento psicanalítico online com acolhimento, ética e privacidade. Sessões individuais conduzidas por Rosi Perini." />
+
+  <link rel="stylesheet" href="assets/css/style.cssfonts.googleapis.com
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheetss="topbar">
+  <div class="container header-flex">
+    <h2 class="logo">Rosi Perini</h2>
+    <nav class="menu">
+      <a href="#sobre
+      <a href="#atuão</a>
+      <a hrefciosBenefícios</a>
+      #faqFAQ</a>
+      <a href="agendar.htmla>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Acolhimento, escuta e compreensão no seu tempo.</h1>
+      <p class="hero-sub">Atendimento psicanalítico online com privacidade, ética e cuidado emocional.</p>
+      <a href="agendar.html"ssão</a>
     </div>
-  </header>
-
-  <main id="conteudo">
-    <!-- HERO -->
-    <section id="inicio" class="hero">
-      <div class="container grid-2">
-        <div>
-          <h1>Atendimento psicanalítico online</h1>
-          <p class="lead">Um espaço confidencial para escuta, compreensão e cuidado. Acolhimento ético e humano para o seu processo de autoconhecimento.</p>
-          <div class="cta">
-            <a class="btn btn-primary" id="cta-whatsapp" href="#contato">Agendar sessão</a>
-            <a class="btn btn-ghost" href="#sobre">Conhecer mais</a>
-          </div>
-          <ul class="trust">
-            <li>✔ Sigilo e ética profissional</li>
-            <li>✔ Sessões por vídeo (Google Meet/Zoom)</li>
-            <li>✔ Pagamento via Pix/Cartão</li>
-          </ul>
-        </div>
-        <div class="hero-img">
-          <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1600&auto=format&fit=crop" alt="Ambiente sereno de consultório online" loading="lazy"/>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOBRE -->
-    <section id="sobre" class="section">
-      <div class="container grid-2">
-        <div>
-          <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="Foto da psicanalista" loading="lazy"/>
-        </div>
-        <div>
-          <h2>Sobre mim</h2>
-          <p>Olá, sou <strong>{{NOME_DA_PROFISSIONAL}}</strong>, psicanalista com foco em <em>atendimento online</em>. Minha prática é baseada em uma escuta atenta e sem julgamentos, respeitando o seu tempo e a sua história.</p>
-          <p>Trabalho com temas como ansiedade, relacionamentos, autoestima, luto, trabalho e sentido de vida. Atendo jovens e adultos.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- COMO FUNCIONA -->
-    <section class="section alt">
-      <div class="container">
-        <h2>Como funciona o atendimento online</h2>
-        <div class="steps">
-          <div class="step"><span class="num">1</span><p>Marcamos um horário fixo semanal por videochamada.</p></div>
-          <div class="step"><span class="num">2</span><p>Sessões de 45–50 minutos, no seu ritmo e com acolhimento.</p></div>
-          <div class="step"><span class="num">3</span><p>Pagamento simples via Pix ou cartão.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABORDAGEM -->
-    <section id="abordagem" class="section">
-      <div class="container">
-        <h2>Abordagem psicanalítica</h2>
-        <p>A psicanálise propõe um espaço de fala em que pensamentos, sentimentos e sonhos podem emergir com liberdade. O objetivo é construir, junto com você, novos sentidos para a sua experiência.</p>
-        <ul class="bullets">
-          <li>Escuta sem julgamentos</li>
-          <li>Compreensão do inconsciente e dos afetos</li>
-          <li>Autoconhecimento e elaboração de conflitos</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- SERVIÇOS (carregado de data/services.json) -->
-    <section id="servicos" class="section alt">
-      <div class="container">
-        <h2>Serviços</h2>
-        <div id="servicos-grid" class="cards"></div>
-      </div>
-    </section>
-
-    <!-- BENEFÍCIOS/VALORES -->
-    <section class="section">
-      <div class="container">
-        <h2>Benefícios</h2>
-        <div class="benefits">
-          <div class="benefit">Flexibilidade de horários</div>
-          <div class="benefit">Conforto e privacidade</div>
-          <div class="benefit">Continuidade mesmo em viagens</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- DEPOIMENTOS (carregado de data/testimonials.json) -->
-    <section id="depoimentos" class="section alt">
-      <div class="container">
-        <h2>Depoimentos</h2>
-        <div id="depoimentos-list" class="testimonials"></div>
-      </div>
-    </section>
-
-    <!-- FAQ (carregado de data/faq.json) -->
-    <section id="faq" class="section">
-      <div class="container">
-        <h2>Perguntas frequentes</h2>
-        <div id="faq-list" class="accordion" role="tablist"></div>
-      </div>
-    </section>
-
-    <!-- CONTATO -->
-    <section id="contato" class="section alt">
-      <div class="container grid-2">
-        <div>
-          <h2>Agende sua primeira conversa</h2>
-          <p>Envie uma mensagem no WhatsApp ou e-mail que retorno com horários e valores.</p>
-          <div class="cta">
-            <a class="btn btn-primary" id="btn-whats" target="_blank" rel="noopener" href="https://wa.me/{{DDD_NUMERO}}?text={{MENSAGEM_URLENC}}">Falar no WhatsApp</a>
-            <a class="btn btn-ghost" href="mailto:{{EMAIL}}?subject=Agendamento%20de%20sess%C3%A3o">Enviar e-mail</a>
-          </div>
-          <p class="micro">Atendimento 100% online. Política de cancelamento: avisar com 24h de antecedência.</p>
-        </div>
-        <div>
-          <div class="card">
-            <h3>Informações</h3>
-            <ul class="info">
-              <li><strong>Nome:</strong> {{NOME_DA_PROFISSIONAL}}</li>
-              <li><strong>Especialidade:</strong> Psicanálise</li>
-              <li><strong>Contato:</strong> {{EMAIL}} · {{TELEFONE_EXIBICAO}}</li>
-              <li><strong>Idiomas:</strong> Português</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="brand"><span class="logo">ψ</span><span class="brand-text">{{NOME_DA_PROFISSIONAL}}</span></div>
-        <p class="micro">© <span id="ano"></span> {{NOME_DA_PROFISSIONAL}}. Todos os direitos reservados.</p>
-      </div>
-      <nav class="footer-nav">
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contato">Contato</a>
-      </nav>
+    <div>
+      <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?q=80&w=1200" 
+           class="hero-img"
+          " class="section">
+  <div class="container about-grid">
+    <img class="about-photo" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800" alt="Foto genéricastrong>Rosi Perini</strong>, psicanalista com foco em atendimento online. Trabalho com acolhimento humano, respeito ao seu tempo e escuta sensível.</p>
+      <p>A psicanálise oferece um espaço seguro para que você possa falar livremente sobre o que sente, pensa e vive.</p>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- JSON-LD (substitua os placeholders) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "{{NOME_DA_PROFISSIONAL}}",
-    "jobTitle": "Psicanalista",
-    "url": "{{URL_SITE}}",
-    "sameAs": ["{{INSTAGRAM}}", "{{LINKEDIN}}"],
-    "worksFor": {
-      "@type": "ProfessionalService",
-      "name": "{{NOME_DA_PROFISSIONAL}} - Psicanálise",
-      "areaServed": "Online",
-      "url": "{{URL_SITE}}"
-    }
-  }
-  </script>
+<section id="atuacao" class="section alt">
+  <div class="container">
+    <h2>Você sofre com…</h2>
+    <div class="cards">
+      <div class="card">Ansiedade</div>
+      <div class="card">Angústia</div>
+      <div class="card">Relacionamentos</div>
+      <div class="card">Fobias</div>
+      <div class="card">Obsessões</div>
+      <div class="card">Compulsões</div>
+    </div>
+  </div>
+</section>
 
-  <script src="assets/js/main.js" defer></script>
-</body>
+<section id="beneficios" class="section">
+  <div class="container">
+    <h2>Benefícios da psicoterapia</h2>
+    <div class="benefits">
+      <div class="benefit">Resiliência emocional</div>
+      <div class="benefit">Habilidades sociais</div>
+      <div class="benefit">Qualidade do sono</div>
+      <div class="benefit">Autoconhecimento</div>
+      <div class="benefit">Redução de sintomas</div>
+      <div class="benefit">Saúde emocional</div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="section alt">
+  <div class="container">
+    <h2>Perguntas frequentes</h2>
+    <div id="faq-list"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Rosi Perini</h3>
+      <p>Atendimento psicanalítico online</p>
+    </div>
+
+    <div class="footer-contact">
+      <p><strong>WhatsApp:</strong> +55 51 99284-7287</p>
+      <p><strong>E-mail:</strong> felipet@hotmail.com</p>
+      <a href="agendar.html" class="btn-footer>
+  </div>
+</footer>
+
+<script src="assets/js/main</body>
 </html>
