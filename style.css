@@ -350,6 +350,37 @@ footer {
 }
 
 /* =========================================
+   9. GOOGLE REVIEW (Destacado)
+   ========================================= */
+.google-review {
+  padding: 40px 5%;
+  text-align: center;
+  background: #fff; /* Fundo BRANCO para destacar do FAQ */
+  margin-top: 0;
+  border-top: 1px solid #e0d8c8; /* Linha sutil separando */
+}
+
+.chamada-review {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
+.google-review img {
+  width: 140px;      /* Um pouco maior */
+  margin: 0 auto;
+  opacity: 1;        /* Totalmente visível */
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.google-review img:hover {
+  transform: scale(1.05);
+}
+
+/* =========================================
    11. RESPONSIVIDADE (CELULAR)
    ========================================= */
 @media (max-width: 900px) {
