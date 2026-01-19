@@ -158,19 +158,27 @@ footer{
   .tags span{padding:7px 12px;border-radius:16px}
 }
 
+/* ========= Google Review Ajustado ========= */
 .google-review {
-  padding: 40px 10%;
+  /* Padding: 0 em cima (para aproximar), 4% nas laterais, 30px em baixo */
+  padding: 0 4% 30px; 
   text-align: center;
+  /* Margem negativa leve para puxar ainda mais para cima, se necessário */
+  margin-top: -10px; 
 }
 
-.google-selo {
-  width: 180px;      /* ajuste se quiser maior/menor */
+/* Estou usando .google-review img para garantir que pegue a imagem mesmo sem classe */
+.google-review img {
+  width: 130px;        /* Reduzido de 180px para 130px */
+  margin: 0 auto;      /* Centraliza */
   opacity: 0.95;
   transition: 0.2s;
+  display: inline-block;
 }
 
-.google-selo:hover {
+.google-review img:hover {
   opacity: 1;
-  transform: scale(1.04);
+  transform: scale(1.05); /* Efeito de zoom leve */
+}
 }
 ``
