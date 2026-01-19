@@ -157,4 +157,20 @@ footer{
   .tags{gap:8px}
   .tags span{padding:7px 12px;border-radius:16px}
 }
+
+.google-review {
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.google-selo {
+  width: 180px;      /* ajuste se quiser maior/menor */
+  opacity: 0.95;
+  transition: 0.2s;
+}
+
+.google-selo:hover {
+  opacity: 1;
+  transform: scale(1.04);
+}
 ``
